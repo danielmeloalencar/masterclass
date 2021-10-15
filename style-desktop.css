@@ -1,0 +1,162 @@
+/* Reset CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Nunito Sans", "Segoe UI", Tahoma, Geneva, Verdana,
+  sans-serif;
+}
+.accent-color {
+  color: #b99b54 !important;
+}
+.container {
+  display: flex;
+  background-image: url("img/topo-fundo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  flex-direction: column;
+  max-width: 1920px;
+}
+
+.hero {
+  font-family: "Nunito Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1vw;
+  display: flex;
+  width: 60%;
+  height: 67vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hero-content {
+  display: flex;
+  flex: 0.6;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2vw;
+}
+.hero-content h1 {
+  font-family: "Nunito Sans Black", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 4.5vw;
+}
+
+.hero-content h2 {
+  font-family: "Nunito Sans Black", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+}
+
+.hero-content span {
+  font-family: "Nunito Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+  font-size: 3vw;
+}
+
+.materclass {
+  margin-bottom: 2vw;
+}
+
+.provedor {
+  line-height: 0.9;
+}
+
+.chamada {
+  width: 19vw;
+  font-size: 1.2vw;
+  margin-top: 1vw;
+}
+
+.especial {
+  width: 30vw;
+  font-size: 1.3vw;
+  margin-top: 1vw;
+}
+.hero-content h3 {
+  font-family: "Nunito Sans Regular", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-size: 1.6vw;
+  line-height: 0.3;
+}
+
+.hero-content h3 span {
+  font-family: "Nunito Sans Regular", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  font-weight: bold;
+  font-size: 1.6vw;
+}
+
+.whatsapp {
+  display: flex;
+  height: 16vw;
+  width: 60%;
+  align-items: flex-start;
+  align-self: center;
+}
+
+.info-1 {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.info-1 .content{
+ 
+  color: #10110f;
+}
+.info-1 .content h1{
+  font-family: "Nunito Sans Black", "Segoe UI", Tahoma, Geneva, Verdana,
+  sans-serif;
+font-size: 1.8vw;
+line-height: 2vw;
+
+}
+
+.info-1 .image{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+
+}
+.info-1 .image img {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
